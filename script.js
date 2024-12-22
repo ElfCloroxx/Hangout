@@ -10,27 +10,27 @@ const movieSuggestions = [
 ];
 
 const recipeSuggestions = [
-  "Homemade Pizza",
-  "Spaghetti Carbonara",
-  "Sushi Rolls",
-  "Baked Ziti",
-  "Vegan Tacos",
+  "Shakshuka",
+  "CHICKI RAMEN",
+  "Summer rolls",
+  "TACOS",
+  "CHILLI GARLIC BEEF ",
 ];
 
 const musicPlaylists = [
-  "Chill Vibes - Lo-Fi Beats",
-  "Romantic Evening Playlist",
-  "Upbeat Indie Hits",
-  "Jazz & Wine Night",
-  "Love Songs - Acoustic Edition",
+  "Chill Vibes",
+  " Ash Playlist",
+  " H Playlist ",
+  "J A Z Z ",
+  "D E F T O N E S",
 ];
 
 const activitySuggestions = [
-  "Virtual Stargazing",
-  "Online Pictionary",
-  "Watch a Movie Together (via Netflix Party)",
-  "Have a Virtual Dance Party",
-  "Play 'Never Have I Ever' Online",
+  "TFT",
+  "RIVALS",
+  "Watch a Movie Together",
+  "Watch ANIME",
+  "Play a NEW game",
 ];
 
 // Functions to show suggestions
