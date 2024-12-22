@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Date Night Planner</title>
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Virtual Date Night Planner</h1>
+      <p>Let's plan a perfect online date night! 💖</p>
+    </header>
+
+    <!-- Date Night Categories -->
+    <div class="date-options">
+      <section class="category" id="movies">
+        <h2>🎬 Movie Suggestions</h2>
+        <button id="movie-btn">Get Movie Idea</button>
+        <p id="movie-suggestion"></p>
+      </section>
+
+      <section class="category" id="recipes">
+        <h2>🍕 Dinner Ideas</h2>
+        <button id="recipe-btn">Get Recipe Idea</button>
+        <p id="recipe-suggestion"></p>
+      </section>
+
+      <section class="category" id="music">
+        <h2>🎶 Music Playlist</h2>
+        <button id="music-btn">Get Playlist</button>
+        <p id="music-suggestion"></p>
+      </section>
+
+      <section class="category" id="activity">
+        <h2>🎲 Fun Activities</h2>
+        <button id="activity-btn">Get Activity Idea</button>
+        <p id="activity-suggestion"></p>
+      </section>
+
+      <!-- Hidden trivia section -->
+      <section id="trivia">
+        <h2>🧩 Romantic Trivia</h2>
+        <p>Guess our anniversary date:</p>
+        <input type="date" id="anniversary" placeholder="Pick a date">
+        <button id="submit-trivia">Submit</button>
+        <p id="trivia-result"></p>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
