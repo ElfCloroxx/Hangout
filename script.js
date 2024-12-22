@@ -2,11 +2,11 @@
 
 // Data for movie, recipe, music, and activity suggestions
 const movieSuggestions = [
-  "The Notebook (Romance)",
-  "Inception (Sci-Fi Thriller)",
-  "La La Land (Musical)",
-  "500 Days of Summer (Romantic Comedy)",
-  "The Grand Budapest Hotel (Comedy)",
+  "DANDADAN",
+  "Suzume",
+  "Evangelion",
+  "Gurren Laggan",
+  "I Want to eat your pancreas",
 ];
 
 const recipeSuggestions = [
@@ -41,22 +41,22 @@ function getRandomItem(array) {
 
 function showMovie() {
   const movie = getRandomItem(movieSuggestions);
-  document.getElementById("movie-suggestion").innerText = `How about watching: ${movie}`;
+  document.getElementById("movie-suggestion").innerText = `Let's watch: ${movie}`;
 }
 
 function showRecipe() {
   const recipe = getRandomItem(recipeSuggestions);
-  document.getElementById("recipe-suggestion").innerText = `Try cooking: ${recipe}`;
+  document.getElementById("recipe-suggestion").innerText = `WE COCK? WE COOK: ${recipe}`;
 }
 
 function showMusic() {
   const playlist = getRandomItem(musicPlaylists);
-  document.getElementById("music-suggestion").innerText = `Listen to: ${playlist}`;
+  document.getElementById("music-suggestion").innerText = `PLAY: ${playlist}`;
 }
 
 function showActivity() {
   const activity = getRandomItem(activitySuggestions);
-  document.getElementById("activity-suggestion").innerText = `How about: ${activity}`;
+  document.getElementById("activity-suggestion").innerText = `We should play: ${activity}`;
 }
 
 // Trivia Game - Romantic Date Guessing
