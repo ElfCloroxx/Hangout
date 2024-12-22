@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* General Page Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0e5d8;
+  color: #3d3d3d;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  color: #ff5e5b;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ff8e72;
+  margin-top: -10px;
+}
+
+.date-options {
+  margin-top: 30px;
+}
+
+.category {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff3f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+  font-size: 1.8rem;
+  color: #ff5e5b;
+}
+
+button {
+  background-color: #ff8e72;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+#trivia {
+  display: none;
+}
+
+#trivia-result {
+  font-size: 1.2rem;
+  color: #32cd32;
+  margin-top: 10px;
+}
+
+#trivia-result.error {
+  color: #ff6347;
+}
