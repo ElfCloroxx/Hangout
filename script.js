@@ -59,18 +59,6 @@ function showActivity() {
   document.getElementById("activity-suggestion").innerText = `We should : ${activity}`;
 }
 
-// Trivia Game - Romantic Date Guessing
-function checkTrivia() {
-  const userDate = document.getElementById("anniversary").value;
-  const correctDate = "2021-08-15"; // Replace with your actual date
-  const result = document.getElementById("trivia-result");
-
-  if (userDate === correctDate) {
-    result.classList.remove("error");
-    result.innerText = "You got it right! 🎉 That was our special day!";
-  } else {
-    result.classList.add("error");
-    result.innerText = "Oops! Try again. 💖";
   }
 }
 
@@ -79,4 +67,4 @@ document.getElementById("movie-btn").addEventListener("click", showMovie);
 document.getElementById("recipe-btn").addEventListener("click", showRecipe);
 document.getElementById("music-btn").addEventListener("click", showMusic);
 document.getElementById("activity-btn").addEventListener("click", showActivity);
-document.getElementById("submit-trivia").addEventListener("click", checkTrivia);
+
