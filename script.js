@@ -56,7 +56,7 @@ function showMusic() {
 
 function showActivity() {
   const activity = getRandomItem(activitySuggestions);
-  document.getElementById("activity-suggestion").innerText = `We should play: ${activity}`;
+  document.getElementById("activity-suggestion").innerText = `We should : ${activity}`;
 }
 
 // Trivia Game - Romantic Date Guessing
